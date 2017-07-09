@@ -26,7 +26,7 @@ net = model()
 optimizer = optim.SGD(net.parameters(),lr=0.1)
 num_steps = []
 reward = []
-num_episodes = 2000
+num_episodes = 10000
 env = gym.make('FrozenLake-v0')
 epsilon = 1
 for i in range(1,num_episodes+1):
