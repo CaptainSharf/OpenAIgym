@@ -1,0 +1,7 @@
+##Connecting to the server
+cd /etc/openvpn 
+sudo openvpn --config linux_client.conf
+##You'll get a prompt for UID and password
+sudo vim /etc/resolv.conf
+#In this file replace ``nameserver 127.0.0.1`` to ``nameserver 10.4.20.204`` and save
+##ssh rajat.a@10.4.16.28:(atom)
